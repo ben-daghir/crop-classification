@@ -1,0 +1,46 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+Dates	utils/data.py	/^class Dates(object):$/;"	c
+FieldImages	utils/data.py	/^class FieldImages(object):$/;"	c
+Image	utils/data.py	/^class Image(object):$/;"	c
+ModelData	utils/data.py	/^class ModelData(object):$/;"	c
+Xdata	data_example.py	/^Xdata = data.X$/;"	v
+Xdata	data_example.py	/^Xdata = g00.X$/;"	v
+__init__	utils/data.py	/^    def __init__(self, path):$/;"	m	class:Dates
+__init__	utils/data.py	/^    def __init__(self, path):$/;"	m	class:FieldImages
+__init__	utils/data.py	/^    def __init__(self, path):$/;"	m	class:Image
+__init__	utils/data.py	/^    def __init__(self, path):$/;"	m	class:ModelData
+bands	data_example.py	/^bands = data.get(groups[0]).get(dates[0]).bands$/;"	v
+data	data_example.py	/^data = ModelData(path)$/;"	v
+date_object	data_example.py	/^date_object = data.G00.D20190606$/;"	v
+dates	data_example.py	/^dates = data.get(groups[0]).dates$/;"	v
+firstExploration	SVCexplore.py	/^def firstExploration():$/;"	f
+g00	data_example.py	/^g00 = data.G00$/;"	v
+get	utils/data.py	/^    def get(self, key):$/;"	m	class:Dates
+get	utils/data.py	/^    def get(self, key):$/;"	m	class:FieldImages
+get	utils/data.py	/^    def get(self, key):$/;"	m	class:Image
+get	utils/data.py	/^    def get(self, key):$/;"	m	class:ModelData
+groups	data_example.py	/^groups = data.groups$/;"	v
+image_array	data_example.py	/^image_array = image_object.load()$/;"	v
+image_object	data_example.py	/^image_object = data.G00.D20190606.B01$/;"	v
+load	utils/data.py	/^    def load(self):$/;"	m	class:Image
+load_all_data	utils/data.py	/^    def load_all_data(self):$/;"	m	class:ModelData
+load_group_data	utils/data.py	/^    def load_group_data(self):$/;"	m	class:Dates
+np	SVCexplore.py	/^import numpy as np$/;"	I
+np	utils/data.py	/^import numpy as np$/;"	I
+path	data_example.py	/^path = '\/Users\/benjamindaghir1\/Dropbox (GaTech)\/CS4641\/data'$/;"	v
+plt	SVCexplore.py	/^import matplotlib.pyplot as plt$/;"	I
+plt	utils/data.py	/^from matplotlib import pyplot as plt$/;"	x
+printProgressBar	utils/util.py	/^def printProgressBar(iteration, total, prefix='', suffix='', decimals=1, length=25, fill='█', /;"	f
+progress	utils/data.py	/^from .util import printProgressBar as progress$/;"	x
+secondExploration	SVCexplore.py	/^def secondExploration():$/;"	f
+show	utils/data.py	/^    def show(self):$/;"	m	class:Image
+show_rgb	utils/data.py	/^    def show_rgb(self):$/;"	m	class:FieldImages
+ydata	data_example.py	/^ydata = data.y$/;"	v
+ydata	data_example.py	/^ydata = g00.y$/;"	v

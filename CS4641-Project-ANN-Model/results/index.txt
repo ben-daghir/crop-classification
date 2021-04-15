@@ -1,0 +1,23 @@
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+                 GLOBAL PARAMS - Glossary
+
+fid: field id number
+label: number associated with crop type
+L: entire length of dataset
+N: max number of pixels for a given fid
+B: number of bands
+C: number of crop labels
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+
+v1-b: fid pixel MLP Model (simplest)
+    X: fid pixels (size=LxB)
+    y: label      (size=LxC)
+    params:
+        None
+
+
+v2-b: MxM tile size MLP Model
+    X: fid pixel tiles (size=LxNxB)
+    y: label           (size=LxC)
+    params:
+        M: the size of square surrounding the fid pixel
